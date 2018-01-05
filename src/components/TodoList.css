@@ -1,9 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Rubik');
-
 .TodoList {
-    width: 300px;
-    font-family: 'Rubik', sans-serif;
     font-size: 20px;
+    padding-left: 0;
+	width: 300px;
 }
 .TodoList>li:hover {
     color: red;

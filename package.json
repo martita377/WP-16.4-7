@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "webpack.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack"
+    "build": "NODE_ENV=production webpack",
+    "start": "webpack-dev-server --inline --hot --config ./webpack.config.js"
   },
   "keywords": [],
   "author": "",
@@ -19,8 +19,10 @@
     "optimize-js-plugin": "0.0.4",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
+    "react-hot-loader": "^4.0.0-beta.12",
     "style-loader": "^0.19.1",
-    "webpack": "^3.10.0"
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.7"
   },
   "dependencies": {
     "uuid": "^3.1.0"
